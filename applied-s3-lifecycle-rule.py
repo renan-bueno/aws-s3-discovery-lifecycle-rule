@@ -21,7 +21,7 @@ def lambda_handler(event, context):
                 # Se não houver configuração de ciclo de vida, crie uma nova configuração
                 rules = []
                 rules.append({
-                    'ID': 'Lifecycle-Klabin-S3',
+                    'ID': 'Lifecycle-Name',
                     'Filter': {
                         'Prefix': ''
                     },
